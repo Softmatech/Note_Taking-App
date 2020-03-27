@@ -10,6 +10,7 @@ function ViewNotes({ navigation }) {
 	const addNotes = note => {
 		note.id = state.length + 1
 		addnote(note)
+		
 		// setNotes([...notes, note])
 	}
 	return (
